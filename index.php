@@ -4,6 +4,7 @@
 // Connecting to db
     $pdo = pdo_connect_mysql();
 
+	session_start();
 // MySQL query that retrieves  all the tickets from the databse
     $stmt = $pdo->prepare('SELECT * FROM tickets ORDER BY date_created DESC');
     $stmt->execute();

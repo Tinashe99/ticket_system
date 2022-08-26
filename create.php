@@ -2,6 +2,7 @@
 include 'functions.php';
 $pdo = pdo_connect_mysql();
 
+session_start();
 //message variable
     $msg = '';
     // Check if POST data exists (user submitted the form)
@@ -23,7 +24,7 @@ $pdo = pdo_connect_mysql();
 ?>
 
 <?=template_header('Create Ticket')?>
-
+<center>
 <div class="content create">
 	<h2>Create Ticket</h2>
     <form action="create.php" method="post">
@@ -33,11 +34,14 @@ $pdo = pdo_connect_mysql();
         <input type="user" name="user" placeholder="your name" id="user" required>
         <label for="msg">Message</label>
         <textarea name="msg" placeholder="Enter your message here..." id="msg" required></textarea>
+        
+        <center>
         <input type="submit" value="Create">
+        </center>
     </form>
     <?php if ($msg): ?>
     <p><?=$msg?></p>
     <?php endif; ?>
 </div>
-
+</center>
 <?=template_footer()?>
