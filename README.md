@@ -34,4 +34,13 @@ NB// All code is under branch main. Also do not forget to initialise your branch
 7. After successful cloning, go to browser and visit the link: http://localhost/ticket_system/register.php
 8. Register into the system and you can now navigate to pages of choice or create, view, update comments or logout
 
-![image](https://user-images.githubusercontent.com/61467820/187004026-c56fcc8d-b832-4e7d-9865-305803f331d2.png)
+![image](https://user-images.githubusercontent.com/61467820/187004731-6d929d2a-e936-4c1f-b9e3-247cb238d37f.png)
+![image](https://user-images.githubusercontent.com/61467820/187004793-79053998-0888-4758-aaa5-0e104f428be3.png)
+![image](https://user-images.githubusercontent.com/61467820/187004810-70edfbe9-d719-42e7-8921-2eb60c0f8bf4.png)
+![image](https://user-images.githubusercontent.com/61467820/187004829-609882cd-8610-4d74-ab44-d4ab7a457f9a.png)
+![image](https://user-images.githubusercontent.com/61467820/187004848-0ae1f089-5eb0-4456-8071-3f463e544de3.png)
+
+
+
+
+
