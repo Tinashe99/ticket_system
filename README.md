@@ -33,3 +33,5 @@ CREATE TABLE IF NOT EXISTS `tickets_comments` (
 NB// All code is under branch main. Also do not forget to initialise your branches and or folders
 7. After successful cloning, go to browser and visit the link: http://localhost/ticket_system/register.php
 8. Register into the system and you can now navigate to pages of choice or create, view, update comments or logout
+
+![image](https://user-images.githubusercontent.com/61467820/187004026-c56fcc8d-b832-4e7d-9865-305803f331d2.png)
