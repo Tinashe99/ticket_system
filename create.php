@@ -29,8 +29,8 @@ $pdo = pdo_connect_mysql();
     <form action="create.php" method="post">
         <label for="title">Title</label>
         <input type="text" name="title" placeholder="Title" id="title" required>
-        <label for="email">Email</label>
-        <input type="email" name="email" placeholder="johndoe@example.com" id="email" required>
+        <label for="user">User</label>
+        <input type="user" name="user" placeholder="your name" id="user" required>
         <label for="msg">Message</label>
         <textarea name="msg" placeholder="Enter your message here..." id="msg" required></textarea>
         <input type="submit" value="Create">
