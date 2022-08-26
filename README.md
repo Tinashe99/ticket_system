@@ -30,7 +30,6 @@ CREATE TABLE IF NOT EXISTS `tickets_comments` (
   
   INSERT INTO `tickets_comments` (`id`, `ticket_id`, `msg`, `date_created`) VALUES (1, 1, 'Test comment.', '2022-08-12 22:10:39');
 6. Open terminal and cloe the repository. You can clone using the link https://github.com/Tinashe99/ticket_system.git
-
+NB// All code is under branch tinashe. Also do not forget to initialise your branches and or folders
 7. After successful cloning, go to browser and visit the link http://localhost/ticket_system/register.php
 8. Register into the system and you can now navigate to pages of choice or create, view, update comments or logout
-9. 
